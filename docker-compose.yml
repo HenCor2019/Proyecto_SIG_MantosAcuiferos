@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  postgres:
+    container_name: postgres_postgis
+    image: postgis/postgis:14-master
+    restart: always
+    volumes:
+      - /private/var/lib/postgresql:/var/lib/postgresql
+    ports:
+      - ${POSTGRES_PORT}:5432
+    env_file:
+      - ./.env
+  pgadmin:
+    container_name: pg_admin
+    image: dpage/pgadmin4
+    env_file:
+      - ./.env
+    ports:
+      - ${PGADMIN_PORT}:80
+    depends_on:
+      - postgres
