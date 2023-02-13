@@ -39,14 +39,14 @@ if [ -z "${GEOSERVER_HOME:-}" ]; then
      echo "directory.  If not set then running this script from other "
      echo "directories will not work in the future."
      GEOSERVER_HOME="$(pwd)"
-  else 
+  else
     if [ -r ../start.jar ]; then
       echo "GEOSERVER_HOME environment variable not found, using current "
       echo "location.  If not set then running this script from other "
       echo "directories will not work in the future."
       GEOSERVER_HOME="$(pwd)/.."
     fi
-  fi 
+  fi
 
   if [ -z "${GEOSERVER_HOME:-}" ]; then
     echo "The GEOSERVER_HOME environment variable is not defined"
