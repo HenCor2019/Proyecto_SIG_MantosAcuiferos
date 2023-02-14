@@ -2,17 +2,28 @@ version: "3.8"
 
 services:
   postgres:
-    container_name: postgres_postgis
+    container_name: postgres_project
     image: postgis/postgis:14-master
     restart: always
     volumes:
-      - /private/var/lib/postgresql:/var/lib/postgresql
+      - ./database/mantos_db.sql:/docker-entrypoint-initdb.d/db.sql
+      - ./postgres-data:/var/lib/postgresql/data
     ports:
       - ${POSTGRES_PORT}:5432
     env_file:
       - ./.env
+  geoserver:
+    container_name: geoserver_project
+    image: docker.osgeo.org/geoserver:2.22.0
+    restart: always
+    volumes:
+      - ./geoserver_data:/opt/geoserver_data/:Z
+    env_file:
+      - ./.env
+    ports:
+      - 80:8080
   pgadmin:
-    container_name: pg_admin
+    container_name: pg_admin_project
     image: dpage/pgadmin4
     env_file:
       - ./.env
