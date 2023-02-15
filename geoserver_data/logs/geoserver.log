@@ -5805,3 +5805,315 @@ Request: getFeature
         typeName[0] = {sig}Recarga_acuifera
     outputFormat = text/xml; subtype=gml/2.1.2
     resultType = results
+15 Feb 07:42:22 INFO   [geoserver.wfs] - 
+Request: getServiceInfo
+15 Feb 07:42:23 INFO   [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.1.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        filter = [  bbox ReferencedEnvelope[-9808366.805538885 : -9775728.194461115, 1474789.7245327136 : 1515148.4754672865] DefaultProjectedCRS[EPSG:WGS 84 / Pseudo-Mercator] AXIS["Easting", EAST] AXIS["Northing", NORTH] ]
+        srsName = EPSG:3857
+        typeName[0] = {sig}Recarga_acuifera
+    outputFormat = text/xml; subtype=gml/2.1.2
+    resultType = results
+15 Feb 07:42:23 INFO   [geoserver.wfs] - 
+Request: getServiceInfo
+15 Feb 07:42:23 INFO   [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.1.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        filter = [  bbox ReferencedEnvelope[-9808366.805538885 : -9775728.194461115, 1474789.7245327136 : 1515148.4754672865] DefaultProjectedCRS[EPSG:WGS 84 / Pseudo-Mercator] AXIS["Easting", EAST] AXIS["Northing", NORTH] ]
+        srsName = EPSG:3857
+        typeName[0] = {sig}Recarga_acuifera
+    outputFormat = text/xml; subtype=gml/2.1.2
+    resultType = results
+15 Feb 07:42:25 INFO   [geoserver.wfs] - 
+Request: getServiceInfo
+15 Feb 07:42:25 INFO   [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.1.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        filter = [  bbox ReferencedEnvelope[-9833933.874411115 : -9759225.365805635, 1437793.8310393742 : 1530173.4388700412] DefaultProjectedCRS[EPSG:WGS 84 / Pseudo-Mercator] AXIS["Easting", EAST] AXIS["Northing", NORTH] ]
+        srsName = EPSG:3857
+        typeName[0] = {sig}Recarga_acuifera
+    outputFormat = text/xml; subtype=gml/2.1.2
+    resultType = results
+15 Feb 07:42:26 INFO   [geoserver.wfs] - 
+Request: getServiceInfo
+15 Feb 07:42:26 INFO   [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.1.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        filter = [  bbox ReferencedEnvelope[-9873956.289735481 : -9719202.95048127, 1437793.8310393742 : 1530173.4388700412] DefaultProjectedCRS[EPSG:WGS 84 / Pseudo-Mercator] AXIS["Easting", EAST] AXIS["Northing", NORTH] ]
+        srsName = EPSG:3857
+        typeName[0] = {sig}Recarga_acuifera
+    outputFormat = text/xml; subtype=gml/2.1.2
+    resultType = results
+15 Feb 07:42:39 INFO   [geoserver.wfs] - 
+Request: getServiceInfo
+15 Feb 07:42:39 INFO   [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.1.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        filter = [  bbox ReferencedEnvelope[-1.0179474387881272E7 : -9490451.638778247, 1316667.6067324653 : 1727977.964591593] DefaultProjectedCRS[EPSG:WGS 84 / Pseudo-Mercator] AXIS["Easting", EAST] AXIS["Northing", NORTH] ]
+        srsName = EPSG:3857
+        typeName[0] = {sig}Recarga_acuifera
+    outputFormat = text/xml; subtype=gml/2.1.2
+    resultType = results
+15 Feb 07:43:26 INFO   [geoserver.wfs] - 
+Request: getServiceInfo
+15 Feb 07:43:26 INFO   [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.1.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        filter = [  bbox ReferencedEnvelope[-1.0078419493399477E7 : -9602003.124718523, 1384319.111308141 : 1668714.637213786] DefaultProjectedCRS[EPSG:WGS 84 / Pseudo-Mercator] AXIS["Easting", EAST] AXIS["Northing", NORTH] ]
+        srsName = EPSG:3857
+        typeName[0] = {sig}Recarga_acuifera
+    outputFormat = text/xml; subtype=gml/2.1.2
+    resultType = results
+15 Feb 07:47:12 INFO   [geoserver.wfs] - 
+Request: getServiceInfo
+15 Feb 07:47:12 INFO   [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.1.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        filter = [  bbox ReferencedEnvelope[-1.0114033360728525E7 : -9536114.663408466, 1328699.912837546 : 1673686.9927527423] DefaultProjectedCRS[EPSG:WGS 84 / Pseudo-Mercator] AXIS["Easting", EAST] AXIS["Northing", NORTH] ]
+        srsName = EPSG:3857
+        typeName[0] = {sig}Recarga_acuifera
+    outputFormat = text/xml; subtype=gml/2.1.2
+    resultType = results
+15 Feb 07:47:26 INFO   [geoserver.wfs] - 
+Request: getServiceInfo
+15 Feb 07:47:26 INFO   [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.1.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        filter = [  bbox ReferencedEnvelope[-1.0114033360728525E7 : -9536114.663408466, 1328699.912837546 : 1673686.9927527423] DefaultProjectedCRS[EPSG:WGS 84 / Pseudo-Mercator] AXIS["Easting", EAST] AXIS["Northing", NORTH] ]
+        srsName = EPSG:3857
+        typeName[0] = {sig}Recarga_acuifera_alta
+    outputFormat = text/xml; subtype=gml/2.1.2
+    resultType = results
+15 Feb 07:47:29 INFO   [geoserver.wfs] - 
+Request: getServiceInfo
+15 Feb 07:47:29 INFO   [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.1.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        filter = [  bbox ReferencedEnvelope[-1.0041898616902845E7 : -9653026.381549643, 1405109.3081491925 : 1637245.58883488] DefaultProjectedCRS[EPSG:WGS 84 / Pseudo-Mercator] AXIS["Easting", EAST] AXIS["Northing", NORTH] ]
+        srsName = EPSG:3857
+        typeName[0] = {sig}Recarga_acuifera_alta
+    outputFormat = text/xml; subtype=gml/2.1.2
+    resultType = results
+15 Feb 07:47:31 INFO   [geoserver.wfs] - 
+Request: getServiceInfo
+15 Feb 07:47:31 INFO   [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.1.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        filter = [  bbox ReferencedEnvelope[-1.0056726484879242E7 : -9667854.24952604, 1414441.5255411614 : 1646577.8062268489] DefaultProjectedCRS[EPSG:WGS 84 / Pseudo-Mercator] AXIS["Easting", EAST] AXIS["Northing", NORTH] ]
+        srsName = EPSG:3857
+        typeName[0] = {sig}Recarga_acuifera_alta
+    outputFormat = text/xml; subtype=gml/2.1.2
+    resultType = results
+15 Feb 07:47:31 INFO   [geoserver.wfs] - 
+Request: getServiceInfo
+15 Feb 07:47:31 INFO   [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.1.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        filter = [  bbox ReferencedEnvelope[-1.0092303385265408E7 : -9602355.070224239, 1371111.6616259816 : 1663585.048106184] DefaultProjectedCRS[EPSG:WGS 84 / Pseudo-Mercator] AXIS["Easting", EAST] AXIS["Northing", NORTH] ]
+        srsName = EPSG:3857
+        typeName[0] = {sig}Recarga_acuifera_alta
+    outputFormat = text/xml; subtype=gml/2.1.2
+    resultType = results
+15 Feb 07:47:34 INFO   [geoserver.wfs] - 
+Request: getServiceInfo
+15 Feb 07:47:34 INFO   [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.1.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        filter = [  bbox ReferencedEnvelope[-1.0092303385265408E7 : -9602355.070224239, 1371111.6616259816 : 1663585.048106184] DefaultProjectedCRS[EPSG:WGS 84 / Pseudo-Mercator] AXIS["Easting", EAST] AXIS["Northing", NORTH] ]
+        srsName = EPSG:3857
+        typeName[0] = {sig}Recarga_acuifera_mediaybaja
+    outputFormat = text/xml; subtype=gml/2.1.2
+    resultType = results
+15 Feb 07:47:40 INFO   [geoserver.wfs] - 
+Request: getServiceInfo
+15 Feb 07:47:40 INFO   [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.1.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        filter = [  bbox ReferencedEnvelope[-1.0092303385265408E7 : -9602355.070224239, 1371111.6616259816 : 1663585.048106184] DefaultProjectedCRS[EPSG:WGS 84 / Pseudo-Mercator] AXIS["Easting", EAST] AXIS["Northing", NORTH] ]
+        srsName = EPSG:3857
+        typeName[0] = {sig}Recarga_acuifera_muyalta
+    outputFormat = text/xml; subtype=gml/2.1.2
+    resultType = results
+15 Feb 07:47:43 INFO   [geoserver.wfs] - 
+Request: getServiceInfo
+15 Feb 07:47:43 INFO   [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.1.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        filter = [  bbox ReferencedEnvelope[-1.0092303385265408E7 : -9602355.070224239, 1371111.6616259816 : 1663585.048106184] DefaultProjectedCRS[EPSG:WGS 84 / Pseudo-Mercator] AXIS["Easting", EAST] AXIS["Northing", NORTH] ]
+        srsName = EPSG:3857
+        typeName[0] = {sig}Recarga_acuifera
+    outputFormat = text/xml; subtype=gml/2.1.2
+    resultType = results
+15 Feb 07:49:26 INFO   [geoserver.wfs] - 
+Request: getServiceInfo
+15 Feb 07:49:26 INFO   [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.1.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        filter = [  bbox ReferencedEnvelope[-1.0097205082868617E7 : -9566072.54626751, 1368623.8217101456 : 1685682.0233216602] DefaultProjectedCRS[EPSG:WGS 84 / Pseudo-Mercator] AXIS["Easting", EAST] AXIS["Northing", NORTH] ]
+        srsName = EPSG:3857
+        typeName[0] = {sig}Recarga_acuifera
+    outputFormat = text/xml; subtype=gml/2.1.2
+    resultType = results
+15 Feb 07:49:39 INFO   [geoserver.wfs] - 
+Request: getServiceInfo
+15 Feb 07:49:39 INFO   [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.1.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        filter = [  bbox ReferencedEnvelope[-1.0097205082868617E7 : -9566072.54626751, 1368623.8217101456 : 1685682.0233216602] DefaultProjectedCRS[EPSG:WGS 84 / Pseudo-Mercator] AXIS["Easting", EAST] AXIS["Northing", NORTH] ]
+        srsName = EPSG:3857
+        typeName[0] = {sig}Recarga_acuifera_alta
+    outputFormat = text/xml; subtype=gml/2.1.2
+    resultType = results
+15 Feb 07:49:43 INFO   [geoserver.wfs] - 
+Request: getServiceInfo
+15 Feb 07:49:43 INFO   [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.1.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        filter = [  bbox ReferencedEnvelope[-1.0097205082868617E7 : -9566072.54626751, 1368623.8217101456 : 1685682.0233216602] DefaultProjectedCRS[EPSG:WGS 84 / Pseudo-Mercator] AXIS["Easting", EAST] AXIS["Northing", NORTH] ]
+        srsName = EPSG:3857
+        typeName[0] = {sig}Recarga_acuifera_mediaybaja
+    outputFormat = text/xml; subtype=gml/2.1.2
+    resultType = results
+15 Feb 07:49:46 INFO   [geoserver.wfs] - 
+Request: getServiceInfo
+15 Feb 07:49:46 INFO   [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.1.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        filter = [  bbox ReferencedEnvelope[-1.0097205082868617E7 : -9566072.54626751, 1368623.8217101456 : 1685682.0233216602] DefaultProjectedCRS[EPSG:WGS 84 / Pseudo-Mercator] AXIS["Easting", EAST] AXIS["Northing", NORTH] ]
+        srsName = EPSG:3857
+        typeName[0] = {sig}Recarga_acuifera_muyalta
+    outputFormat = text/xml; subtype=gml/2.1.2
+    resultType = results
+15 Feb 07:49:49 INFO   [geoserver.wfs] - 
+Request: getServiceInfo
+15 Feb 07:49:49 INFO   [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.1.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        filter = [  bbox ReferencedEnvelope[-1.0029800190575255E7 : -9764233.922274703, 1457646.3186588334 : 1616175.4194645905] DefaultProjectedCRS[EPSG:WGS 84 / Pseudo-Mercator] AXIS["Easting", EAST] AXIS["Northing", NORTH] ]
+        srsName = EPSG:3857
+        typeName[0] = {sig}Recarga_acuifera_muyalta
+    outputFormat = text/xml; subtype=gml/2.1.2
+    resultType = results
+15 Feb 07:49:56 INFO   [geoserver.wfs] - 
+Request: getServiceInfo
+15 Feb 07:49:56 INFO   [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.1.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        filter = [  bbox ReferencedEnvelope[-1.0137778750100374E7 : -9619273.63014374, 1334000.916851451 : 1643521.2145757044] DefaultProjectedCRS[EPSG:WGS 84 / Pseudo-Mercator] AXIS["Easting", EAST] AXIS["Northing", NORTH] ]
+        srsName = EPSG:3857
+        typeName[0] = {sig}Recarga_acuifera_muyalta
+    outputFormat = text/xml; subtype=gml/2.1.2
+    resultType = results
+15 Feb 07:49:56 INFO   [geoserver.wfs] - 
+Request: getServiceInfo
+15 Feb 07:49:56 INFO   [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.1.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        filter = [  bbox ReferencedEnvelope[-1.0331815148863118E7 : -9294804.908949852, 1101567.5872157183 : 1720608.1826642253] DefaultProjectedCRS[EPSG:WGS 84 / Pseudo-Mercator] AXIS["Easting", EAST] AXIS["Northing", NORTH] ]
+        srsName = EPSG:3857
+        typeName[0] = {sig}Recarga_acuifera_muyalta
+    outputFormat = text/xml; subtype=gml/2.1.2
+    resultType = results
+15 Feb 07:50:33 INFO   [geoserver.wfs] - 
+Request: getServiceInfo
+15 Feb 07:50:33 INFO   [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.1.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        filter = [  bbox ReferencedEnvelope[-1.0101210758102965E7 : -9574043.514522955, 1373785.1175658123 : 1688476.2477074128] DefaultProjectedCRS[EPSG:WGS 84 / Pseudo-Mercator] AXIS["Easting", EAST] AXIS["Northing", NORTH] ]
+        srsName = EPSG:3857
+        typeName[0] = {sig}Recarga_acuifera
+    outputFormat = text/xml; subtype=gml/2.1.2
+    resultType = results
+15 Feb 07:51:06 INFO   [geoserver.wfs] - 
+Request: getServiceInfo
+15 Feb 07:51:07 INFO   [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.1.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        filter = [  bbox ReferencedEnvelope[-1.0101210758102965E7 : -9574043.514522955, 1373785.1175658123 : 1688476.2477074128] DefaultProjectedCRS[EPSG:WGS 84 / Pseudo-Mercator] AXIS["Easting", EAST] AXIS["Northing", NORTH] ]
+        srsName = EPSG:3857
+        typeName[0] = {sig}Recarga_acuifera_alta
+    outputFormat = text/xml; subtype=gml/2.1.2
+    resultType = results
+15 Feb 07:51:23 INFO   [geoserver.wfs] - 
+Request: getServiceInfo
+15 Feb 07:51:23 INFO   [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.1.0
+    baseUrl = http://localhost:8080/geoserver/
+    query[0]:
+        filter = [  bbox ReferencedEnvelope[-1.0101210758102965E7 : -9574043.514522955, 1373785.1175658123 : 1688476.2477074128] DefaultProjectedCRS[EPSG:WGS 84 / Pseudo-Mercator] AXIS["Easting", EAST] AXIS["Northing", NORTH] ]
+        srsName = EPSG:3857
+        typeName[0] = {sig}Recarga_acuifera_mediaybaja
+    outputFormat = text/xml; subtype=gml/2.1.2
+    resultType = results
