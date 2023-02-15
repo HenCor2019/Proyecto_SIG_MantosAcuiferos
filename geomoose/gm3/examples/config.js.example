@@ -1,4 +1,0 @@
-CONFIG = {
-    mapserver_url: '/mapserver/cgi-bin/mapserv',
-    mapfile_root: '/data/'
-};
