@@ -351,7 +351,7 @@
         <layer name="recarga_acuifera">
             <style><![CDATA[
             {
-                "line-color" : "red",
+                "line-color" : "blue",
                 "line-width" : 2
             }
             ]]></style>
@@ -381,7 +381,7 @@
         <layer name="recarga_acuifera_mediaybaja">
             <style><![CDATA[
             {
-                "line-color" : "red",
+                "line-color" : "green",
                 "line-width" : 2
             }
             ]]></style>
@@ -396,7 +396,7 @@
         <layer name="recarga_acuifera_muyalta">
             <style><![CDATA[
             {
-                "line-color" : "red",
+                "line-color" : "yellow",
                 "line-width" : 2
             }
             ]]></style>
