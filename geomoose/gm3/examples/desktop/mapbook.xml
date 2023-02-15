@@ -344,11 +344,11 @@
         </layer>
     </map-source>
 
-    <map-source name="recarga_acuifera_2" type="wfs" title="Recarga Acuifera 2">
+    <map-source name="recarga_acuifera" type="wfs" title="Recarga Acuifera">
         <url>http://localhost:8080/geoserver/sig/wfs</url>
 
         <param name="typename" value="sig:Recarga_acuifera"/>
-        <layer name="recarga_acuifera_2">
+        <layer name="recarga_acuifera">
             <style><![CDATA[
             {
                 "line-color" : "red",
@@ -518,7 +518,7 @@
             </group>
             <group title="Mantos Acuiferos">
                 <!--<layer src="recarga_acuifera" />-->
-                <layer src="recarga_acuifera_2/recarga_acuifera_2" />
+                <layer src="recarga_acuifera/recarga_acuifera" />
             </group>
 
             <layer src="vector-pipelines/pipelines"></layer>
