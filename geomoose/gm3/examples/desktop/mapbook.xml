@@ -344,6 +344,21 @@
         </layer>
     </map-source>
 
+    <map-source name="recarga_acuifera_2" type="wfs" title="Recarga Acuifera 2">
+        <url>http://localhost:8080/geoserver/sig/wfs</url>
+
+        <param name="typename" value="sig:Recarga_acuifera"/>
+        <layer name="recarga_acuifera_2">
+            <style><![CDATA[
+            {
+                "line-color" : "red",
+                "line-width" : 2
+            }
+            ]]></style>
+            <template name="identify" auto="true"></template>
+        </layer>
+    </map-source>
+
     <!-- This layer is very large.  It will take awhile to load, will slow down the browser
          once it is loaded.  Thus, it is not "in" the demo, but it is left here because it
          a good complex example and is a great stress test for the ags-vector driver. -->
@@ -501,6 +516,11 @@
                 <!--layer title="AGS Dakota County Streets" src="ags-vector-dc20/roads"/-->
                 <layer title="AGS Dakota County Runways" src="ags-vector-dc21/runways"></layer>
             </group>
+            <group title="Mantos Acuiferos">
+                <!--<layer src="recarga_acuifera" />-->
+                <layer src="recarga_acuifera_2/recarga_acuifera_2" />
+            </group>
+
             <layer src="vector-pipelines/pipelines"></layer>
             <layer title="Weather Radar" src="iastate/nexrad-n0r" />
         </group>

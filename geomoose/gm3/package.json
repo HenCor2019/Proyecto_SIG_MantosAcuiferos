@@ -62,6 +62,7 @@
     "ol": "^6.14.1",
     "ol-mapbox-style": "^6.3.1",
     "papaparse": "^5.3.0",
+    "prettier": "^2.8.4",
     "proj4": "^2.4.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

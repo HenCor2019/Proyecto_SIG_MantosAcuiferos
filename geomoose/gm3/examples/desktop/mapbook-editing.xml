@@ -251,6 +251,64 @@
         </layer>
     </map-source>
 
+    <map-source name="Recarga_acuifera" type="wfs">
+        <!-- GeoMoose support GeoServer being on a different domain
+             as long as GeoServer has been configured with CORS support.
+             See: https://docs.geoserver.org/latest/en/user/production/container.html#enable-cors
+        -->
+        <url>http://localhost:8080/geoserver/proyectosig</url>
+        <!-- <config name="namespace-uri" value="http://geomoose.demo" /> -->
+        <!--         -->
+        <!-- Substitute the following to use the TinyOWS WFS-T server instead of GeoServer: -->
+        <!--
+        <url>http://localhost/cgi-bin/tinyows.exe</url>
+        <config name="namespace-uri" value="http://localhost/cgi-bin/tinyows.exe" />
+        -->
+
+        <!-- The typename is the combination of the
+             workspace name and the layer name joined with a colon
+        -->
+        <param name="typename" value="Proyecto_SIG:Recarga_acuifera" />
+        <!-- This will match the geometry colum name in the server -->
+        <config name="geometry-name" value="geom" />
+        <config name="srs" value="EPSG:4326" />
+        <!-- specify the ID column -->
+        <config name="id-property" value="id" />
+
+        <!-- make sure there is no tolerance on polygon layers -->
+        <!-- <config name="pixel-tolerance" value="0" /> -->
+        <!--
+        <config name="edit-attributes-on-add" value="false" />
+        -->
+        
+
+        <!-- the layer name does not need to match the typename but
+             it is a good idea.
+        -->
+        <layer name="Recarga_acuifera" title="Recarga Acuifera">
+            <style><![CDATA[
+            {
+                "line-color" : "#998ec3",
+                "line-width" : 4,
+                "fill-color" : "#998ec3",
+                "fill-opacity" : 0.1
+            }
+            ]]></style>
+
+            <template name="identify"><![CDATA[
+                <div>
+                    <div class="item">
+                        <label>{{ properties.name }}</label>
+                    </div>
+                    <div class="item">
+                        ID: {{properties.id}}
+                    </div>
+                </div>
+            ]]></template>
+
+        </layer>
+    </map-source>
+
     <!-- Use the following for the GeoServer WMS server: -->
     <map-source name="census-wms" type="wms">
         <url>http://localhost:8080/geoserver/wms?</url>
@@ -715,6 +773,36 @@
                     draw-polygon="true"
                     draw-remove="true"
                 />
+            </group>
+            <group title="Mantos Acuiferos">
+                <layer
+                    title="Recarga Acuifera"
+                    src="Recarga_acuifera/Recarga_acuifera"
+                    draw-edit="true"
+                    draw-modify="true"
+                    draw-point="true"
+                    draw-remove="true"
+                />
+            </group>
+            <group title="County Layers">
+                <layer src="places/default" />
+
+                <layer title="Vector Parcels" src="vector-parcels/parcels">
+                    <metadata>https://raw.githubusercontent.com/geomoose/gm3-demo-data/main/demo/parcels/LICENSE</metadata>
+                </layer>
+
+                <layer src="parcels/parcels" metadata="true" legend-toggle="true" tip="Sample land records" refresh="10">
+                    <metadata>https://raw.githubusercontent.com/geomoose/gm3-demo-data/main/demo/parcels/LICENSE</metadata>
+                    <!--
+                    <legend>images/logo_mini.gif</legend>
+                    -->
+                </layer>
+                <layer title="Parcel Points" src="parcels/parcels_points" minscale="6000" maxscale="20000" status="off"/>
+                <layer title="Expensive Parcels" src="vector-parcels/big-money"/>
+                <layer title="City and County Boundaries" src="borders/county_borders;borders/city_poly"/>
+                <layer title="AGS Dakota County Rail" src="ags-vector-dc16/railroads"/>
+                <!--layer title="AGS Dakota County Streets" src="ags-vector-dc20/roads"/-->
+                <layer title="AGS Dakota County Runways" src="ags-vector-dc21/runways"></layer>
             </group>
             <group title="County Layers">
                 <layer src="places/default" />

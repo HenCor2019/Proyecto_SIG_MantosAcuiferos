@@ -62,4 +62,5 @@
   <encodeFeatureMember>false</encodeFeatureMember>
   <hitsIgnoreMaxFeatures>false</hitsIgnoreMaxFeatures>
   <includeWFSRequestDumpFile>false</includeWFSRequestDumpFile>
+  <getFeatureOutputTypeCheckingEnabled>false</getFeatureOutputTypeCheckingEnabled>
 </wfs>
