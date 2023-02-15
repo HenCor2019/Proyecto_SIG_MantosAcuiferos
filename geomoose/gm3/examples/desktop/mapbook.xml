@@ -359,6 +359,51 @@
         </layer>
     </map-source>
 
+    <map-source name="recarga_acuifera_alta" type="wfs" title="Recarga Acuifera Alta">
+        <url>http://localhost:8080/geoserver/sig/wfs</url>
+
+        <param name="typename" value="sig:Recarga_acuifera_alta"/>
+        <layer name="recarga_acuifera_alta">
+            <style><![CDATA[
+            {
+                "line-color" : "red",
+                "line-width" : 2
+            }
+            ]]></style>
+            <template name="identify" auto="true"></template>
+        </layer>
+    </map-source>
+
+    <map-source name="recarga_acuifera_mediaybaja" type="wfs" title="Recarga Acuifera Media y Baja">
+        <url>http://localhost:8080/geoserver/sig/wfs</url>
+
+        <param name="typename" value="sig:Recarga_acuifera_mediaybaja"/>
+        <layer name="recarga_acuifera_mediaybaja">
+            <style><![CDATA[
+            {
+                "line-color" : "red",
+                "line-width" : 2
+            }
+            ]]></style>
+            <template name="identify" auto="true"></template>
+        </layer>
+    </map-source>
+
+    <map-source name="recarga_acuifera_muyalta" type="wfs" title="Recarga Acuifera Muy Alta">
+        <url>http://localhost:8080/geoserver/sig/wfs</url>
+
+        <param name="typename" value="sig:Recarga_acuifera_muyalta"/>
+        <layer name="recarga_acuifera_muyalta">
+            <style><![CDATA[
+            {
+                "line-color" : "red",
+                "line-width" : 2
+            }
+            ]]></style>
+            <template name="identify" auto="true"></template>
+        </layer>
+    </map-source>
+
     <!-- This layer is very large.  It will take awhile to load, will slow down the browser
          once it is loaded.  Thus, it is not "in" the demo, but it is left here because it
          a good complex example and is a great stress test for the ags-vector driver. -->
@@ -494,34 +539,13 @@
                draw-modify="true" draw-remove="true" draw-edit="true" />
 
         <group title="Overlays" expand="true" tip="Layers that sit above the basemaps">
-            <group title="County Layers">
-                <metadata>https://raw.githubusercontent.com/geomoose/gm3-demo-data/main/demo/parcels/LICENSE</metadata>
-
-                <layer src="places/default" />
-
-                <layer title="Vector Parcels" src="vector-parcels/parcels">
-                    <metadata>https://raw.githubusercontent.com/geomoose/gm3-demo-data/main/demo/parcels/LICENSE</metadata>
-                </layer>
-
-                <layer src="parcels/parcels" metadata="true" legend-toggle="true" tip="Sample land records" refresh="10">
-                    <metadata>https://raw.githubusercontent.com/geomoose/gm3-demo-data/main/demo/parcels/LICENSE</metadata>
-                    <!--
-                    <legend>images/logo_mini.gif</legend>
-                    -->
-                </layer>
-                <layer title="Parcel Points" src="parcels_points/parcels_points" status="off" />
-                <layer title="Expensive Parcels" src="vector-parcels/big-money"/>
-                <layer title="City and County Boundaries" src="borders/county_borders;borders/city_poly"/>
-                <layer title="AGS Dakota County Rail" src="ags-vector-dc16/railroads"/>
-                <!--layer title="AGS Dakota County Streets" src="ags-vector-dc20/roads"/-->
-                <layer title="AGS Dakota County Runways" src="ags-vector-dc21/runways"></layer>
-            </group>
             <group title="Mantos Acuiferos">
-                <!--<layer src="recarga_acuifera" />-->
                 <layer src="recarga_acuifera/recarga_acuifera" />
+                <layer src="recarga_acuifera_alta/recarga_acuifera_alta" />
+                <layer src="recarga_acuifera_mediaybaja/recarga_acuifera_mediaybaja" />
+                <layer src="recarga_acuifera_muyalta/recarga_acuifera_muyalta" />
             </group>
 
-            <layer src="vector-pipelines/pipelines"></layer>
             <layer title="Weather Radar" src="iastate/nexrad-n0r" />
         </group>
 
