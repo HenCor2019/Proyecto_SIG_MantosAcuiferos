@@ -1,0 +1,16 @@
+<layer>
+  <name>Recarga_acuifera_mediaybaja</name>
+  <id>LayerInfoImpl--728d0697:18651ef923f:-4a8f</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe0</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--728d0697:18651ef923f:-4a90</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-02-14 22:03:36.108 UTC</dateCreated>
+</layer>
