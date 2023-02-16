@@ -307,8 +307,8 @@ Para poder acceder a la cuenta de administrador de pgadmin4, se deben ingresar l
 
 ## Enlace del video de presentación<a name="id15"></a>
 
-[Presentación Geoportal](https://youtu.be/IrEtUdcbZ4E)
+[Presentación Geoportal](https://drive.google.com/file/d/1oUN9Tof9nbR0mojRHoAX9gasPiyRkLZ5/view?usp=sharing)
 
 ## Licencia de código<a name="id16"></a>
 
-Geoportal de Mantos Acuiferos de El Salvador esta disponible bajo la [Licencia MIT](./LICENSE).
+Geoportal de Mantos Acuiferos de El Salvador esta disponible bajo la [Licencia MIT](./LICENCE).
