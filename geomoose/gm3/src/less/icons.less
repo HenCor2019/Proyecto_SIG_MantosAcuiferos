@@ -1,0 +1,280 @@
+/*
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2016-2017 Dan "Ducky" Little
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+@folder-color: #333333;
+@refresh-icon-disabled-color: #82A984;
+@refresh-icon-enabled-color: #5DF265;
+@icon-size: 20px;
+
+.icon {
+    font: normal normal normal @icon-size/1 mapskin;
+    cursor: pointer;
+    margin-right: 0.5em;
+    vertical-align: middle;
+
+    &:before {
+        content: "\e031";
+    }
+}
+
+.icon.upload, .icon.clear, .icon.download, .icon.remove, .icon.refresh,
+.icon.legend, .icon.up, .icon.down, .icon.edit,
+.icon.fade, .icon.unfade, .icon.metadata,
+.icon.sort, .icon.remove, .icon.filter,
+.icon.favorite, .icon.refresh, .icon.folder, .icon.checkbox,
+.icon.radio,
+.icon.save, .icon.cancel, .icon.undo, .icon.stop, .icon.close
+{
+    .fa;
+    font-size: @icon-size/1;
+}
+
+.icon.close {
+    &:before {
+        content: @fa-var-times;
+    }
+}
+
+.icon.upload {
+    &:before {
+        content: @fa-var-upload;
+    }
+}
+
+.icon.download {
+    &:before {
+        content: @fa-var-download;
+    }
+}
+
+.icon.clear {
+    &:before {
+        content: @fa-var-trash;
+    }
+}
+
+.icon.remove {
+    &:before {
+        content: @fa-var-minus-circle;
+    }
+}
+
+.icon.point {
+    &:before {
+        content: "\e01b";
+    }
+}
+
+.icon.polygon {
+    &:before {
+        content: "\e01d";
+    }
+}
+
+
+.icon.line {
+    &:before {
+        content: "\e01c";
+    }
+}
+
+.icon.modify {
+    &:before {
+        content: "\e09e";
+    }
+}
+
+.icon.zoomto {
+    &:before {
+        content: "\e008";
+    }
+}
+
+.icon.legend {
+    &:before {
+        content: @fa-var-list-alt;
+    }
+}
+
+.icon.up {
+    &:before {
+        content: @fa-var-arrow-up;
+    }
+}
+
+.icon.down {
+    &:before {
+        content: @fa-var-arrow-down;
+    }
+}
+
+.icon.fade {
+    opacity: .50;
+}
+
+.icon.fade, .icon.unfade {
+    &:before {
+        content: @fa-var-adjust;
+    }
+}
+
+.icon.metadata {
+    &:before {
+        content: @fa-var-address-card-o;
+    }
+}
+
+.icon.sort {
+    &:before {
+        content: @fa-var-sort;
+    }
+}
+
+.icon.sort.asc {
+    &:before {
+        content: @fa-var-sort-amount-asc;
+    }
+}
+
+
+.icon.sort.desc {
+    &:before {
+        content: @fa-var-sort-amount-desc;
+    }
+}
+
+.icon.filter {
+    &:before {
+        content: @fa-var-filter;
+    }
+}
+
+.icon.favorite {
+    color: @favorite-star-color;
+
+    &:before {
+        content: @fa-var-star;
+    }
+}
+
+.icon.favorite.not {
+    &:before {
+        content: @fa-var-star-o;
+    }
+}
+
+.icon.folder {
+    color: @folder-color;
+    transition: transform linear 300ms;
+    &:before {
+        content: @fa-var-caret-right;
+    }
+}
+
+.icon.folder.open {
+    transform: rotate(90deg);
+}
+
+.icon.refresh {
+    color: @refresh-icon-disabled-color;
+    &:before {
+        content: @fa-var-refresh;
+    }
+}
+
+.icon.refresh.on {
+    color: @refresh-icon-enabled-color;
+}
+
+.icon.checkbox {
+    &:before {
+        content: @fa-var-square-o;
+    }
+
+    &.on {
+        &:before {
+            content: @fa-var-check-square-o;
+        }
+    }
+}
+
+.icon.edit {
+    &:before {
+        content: @fa-var-list;
+    }
+}
+
+.icon.buffer {
+    &:before {
+        content: "\e0bb";
+    }
+}
+
+.icon.save {
+    &:before {
+        content: @fa-var-check;
+    }
+}
+
+.icon.cancel {
+    &:before {
+        content: @fa-var-ban;
+    }
+}
+
+.icon.undo {
+    &:before {
+        content: @fa-var-undo;
+    }
+}
+
+.icon.stop {
+    &:before {
+        content: @fa-var-stop;
+    }
+}
+
+.icon.zoom-in {
+    &:before {
+        content: "\e001";
+    }
+}
+
+.icon.zoom-out {
+    &:before {
+        content: "\e002";
+    }
+}
+
+.icon.radio {
+    &:before {
+        content: @fa-var-circle-o;
+    }
+
+    &.on {
+        &:before {
+            content: @fa-var-check-circle-o;
+        }
+    }
+}

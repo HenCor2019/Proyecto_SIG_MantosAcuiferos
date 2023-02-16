@@ -1,0 +1,26 @@
+{
+  "name": "gm3-mobile-demo",
+  "repository": "https://github.com/geomoose/gm3/",
+  "version": "1.0.0-beta",
+  "description": "GeoMoose 3 Mobile Application Demo",
+  "main": "mobile.js",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "geomoose",
+    "gm3",
+    "mobile",
+    "jquery",
+    "demo",
+    "gis"
+  ],
+  "author": "Dan \"Ducky\" Little",
+  "license": "MIT"
+}
