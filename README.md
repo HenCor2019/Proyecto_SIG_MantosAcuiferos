@@ -229,7 +229,7 @@ Una vez dentro del archivo mapbook.xml, para añadir una nueva capa se debe ingr
 Para cambiar el logo del geoportal, se debe ir a la carpeta de la plantilla seleccionada (skin) y sustituir la imagen **logo.png**, que esta en la carpeta /images/ de la plantilla, por la nueva imagen del logo.
 
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="./assets/Logo.jpeg" width="320" alt="Nest Logo" /></a>
+  <a href="" target="blank"><img src="./assets/Logo.jpeg" width="320" alt="Nest Logo" /></a>
 </p>
 
 #### Lenguaje del geoportal.<a name="id12"></a>
@@ -249,7 +249,7 @@ Para ingresar al geoportal ya en funcionamiento, se hace mediante el puerto 4000
 Una vez accedido al link anterior, se abrira la siguiente pestaña:
 
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="./assets/pagina_principal.jpeg" width="320" alt="Nest Logo" /></a>
+  <a href="" target="blank"><img src="./assets/pagina_principal.jpeg" width="320" alt="Nest Logo" /></a>
 </p>
 
 Luego en el geoportal se puede ya observar las distintas capas que importamos anteriormente, la cual se muestra de la siguiente forma:
@@ -257,25 +257,25 @@ Luego en el geoportal se puede ya observar las distintas capas que importamos an
 - Vista de la capa "Recarga Acuífera"
 
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="./assets/RecargaAcu.jpeg" width="320" alt="Nest Logo" /></a>
+  <a href="" target="blank"><img src="./assets/RecargaAcu.jpeg" width="320" alt="Nest Logo" /></a>
 </p>
 
 - Vista de la capa "Recarga Acuífera Alta"
 
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="./assets/RecargaAcuAlta.jpeg" width="320" alt="Nest Logo" /></a>
+  <a href="" target="blank"><img src="./assets/RecargaAcuAlta.jpeg" width="320" alt="Nest Logo" /></a>
 </p>
 
 - Vista de la capa "Recarga Acuífera Media y Baja"
 
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="./assets/RecargaAcuMedBaja.jpeg" width="320" alt="Nest Logo" /></a>
+  <a href="" target="blank"><img src="./assets/RecargaAcuMedBaja.jpeg" width="320" alt="Nest Logo" /></a>
 </p>
 
 - Vista de la capa "Recarga Acuífera Muy Alta":
 
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="./assets/RecargaAcuMuyAlta.jpeg" width="320" alt="Nest Logo" /></a>
+  <a href="#" target="blank"><img src="./assets/RecargaAcuMuyAlta.jpeg" width="320" alt="#" /></a>
 </p>
 
 ## Usuarios de prueba<a name="id14"></a>
@@ -285,7 +285,7 @@ Para poder acceder a la cuenta de administrador de geoserver, se deben ingresar 
 - Usuario: "admin"
 - Contraseña: "geoserver"
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="./assets/Credenciales_geoserver.png" width="320" alt="Nest Logo" /></a>
+  <a href="#" target="blank"><img src="./assets/Credenciales_geoserver.png" width="320" alt="#" /></a>
 </p>
 
 Para poder acceder a la cuenta de administrador de postgres, se deben ingresar las siguientes credenciales:
@@ -293,7 +293,7 @@ Para poder acceder a la cuenta de administrador de postgres, se deben ingresar l
 - Usuario: "pgisdb"
 - Contraseña: "postgres"
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="./assets/credenciales_postgres.png" width="320" alt="Nest Logo" /></a>
+  <a href="#" target="blank"><img src="./assets/credenciales_postgres.png" width="320" alt="credenciales /></a>
 </p>
 
 Para poder acceder a la cuenta de administrador de pgadmin4, se deben ingresar las siguientes credenciales:
@@ -302,8 +302,10 @@ Para poder acceder a la cuenta de administrador de pgadmin4, se deben ingresar l
 - Contraseña: "pgisdb"
 
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="./assets/Credenciales_pgadmin.png" width="320" alt="Nest Logo" /></a>
+  <a href="#" target="blank"><img src="./assets/Credenciales_pgadmin.png" width="320" alt="credenciales " /></a>
 </p>
+
+
 
 ## Enlace del video de presentación<a name="id15"></a>
 
